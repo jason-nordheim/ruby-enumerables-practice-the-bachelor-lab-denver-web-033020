@@ -240,4 +240,4 @@ data = {
 
 
 
-pp get_first_name_of_season_winner(data,:"season 19")
+get_first_name_of_season_winner(data,:"season 19")
