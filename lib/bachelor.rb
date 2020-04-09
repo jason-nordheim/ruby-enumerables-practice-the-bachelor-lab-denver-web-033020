@@ -19,6 +19,9 @@ end
 
 def count_contestants_by_hometown(data, hometown)
   # code here
+  all_people = get_all_contestants(data) 
+selected_people = all_people.select { |x| x["hometown"] == hometown }
+selected_people.length 
 end
 
 def get_occupation(data, hometown)
