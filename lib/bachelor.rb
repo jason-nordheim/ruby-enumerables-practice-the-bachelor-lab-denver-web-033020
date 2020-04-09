@@ -1,8 +1,6 @@
 def get_first_name_of_season_winner(data, season)
   # code here
-  data[hash].each { |k,v|
-    p k
-  }
+  data[hash].each { |k,v| p l }
 end
 
 def get_contestant_name(data, occupation)
@@ -234,3 +232,6 @@ data = {
          "occupation":"Cadaver Tissue Saleswoman",
          "status":"Eliminated in episode 1"
       }]
+
+
+get_first_name_of_season_winner(data,"season 19")
