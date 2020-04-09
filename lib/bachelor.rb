@@ -3,8 +3,11 @@ require 'pp'
 
 def get_first_name_of_season_winner(data, season)
   # code here
-  saved = nil 
-  data[season].each { |hash| hash[:status] == "Winner"}[:name]
+  saved = nil
+  data[season].each do |hash|
+    if hash[:status] == "Winner"
+    end
+  end 
 end
 
 def get_contestant_name(data, occupation)
