@@ -1,10 +1,11 @@
 require 'pp'
-
+require 'pry'
 
 def get_first_name_of_season_winner(data, season)
   # code here
   saved = nil
   data[season].each do |hash|
+    Binding.pry
     if hash[:status] == "Winner"
       saved = hash[:name]
     end
