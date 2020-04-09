@@ -233,7 +233,7 @@ data = {
          "status":"Eliminated in episode 1"
       }]
 
-data["season 19"].each do |k, v| 
+data["season 19"].each do |k, v|
   p "k: #{k}"
   p "v: #{v}"
 end 
