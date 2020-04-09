@@ -16,7 +16,7 @@ def get_contestant_name(data, occupation)
   # code here
   saved = nil
   data.each do |season|
-    season.each 
+    season.each
     if hash["occupation"] == occupation
       saved = hash["name"]
     end
@@ -36,12 +36,12 @@ def get_average_age_for_season(data, season)
   # code here
 end
 
-# Helper Function - Returns contestants from all seasons 
-def get_all_contestants data 
+# Helper Function - Returns contestants from all seasons
+def get_all_contestants data
   people = []
-  data.each { | season | contestants = season[1]; 
+  data.each { | season | contestants = season[1];
     contestants.each { | person | people << person } }
-  people 
+  people
 end 
 
 
