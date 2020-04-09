@@ -233,5 +233,4 @@ data = {
          "status":"Eliminated in episode 1"
       }]
 
-
-get_first_name_of_season_winner(data,"season 19")
+data["season 19"].each {|k, v| p "k: #{k}"; p "v: #{v}"}
