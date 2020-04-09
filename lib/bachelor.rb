@@ -1,7 +1,7 @@
 def get_first_name_of_season_winner(data, season)
   # code here
-  data[hash].select { |k,v|
-    p k 
+  data[hash].each { |k,v|
+    p k
   }
 end
 
