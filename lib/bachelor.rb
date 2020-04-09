@@ -15,7 +15,7 @@ end
 def get_contestant_name(data, occupation)
   # code here
   saved = nil
-  data[season].each do |hash|
+  data.each do |season|
     if hash["occupation"] == occupation
       saved = hash["name"]
     end
