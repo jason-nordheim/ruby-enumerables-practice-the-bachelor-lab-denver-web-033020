@@ -8,9 +8,7 @@ def get_first_name_of_season_winner(data, season)
     p hash[:status]
     if hash[:status] == "Winner"
       p hash
-    else
-      p "nope"
-    end
+    end 
   end
 end
 
