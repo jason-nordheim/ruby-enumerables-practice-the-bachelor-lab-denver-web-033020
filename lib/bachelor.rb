@@ -235,7 +235,7 @@ data = {
     ]
   }
 
-p data
+p data[0]
 # data["season 19"].each do |k, v|
 #   p "k: #{k}"
 #   p "v: #{v}"
