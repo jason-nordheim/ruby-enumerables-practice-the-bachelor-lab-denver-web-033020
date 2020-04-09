@@ -35,7 +35,7 @@ def get_all_contestants data
   data.each { | season | contestants = season[1];
     contestants.each { | person | people << person } }
   people
-end 
+end
 
 
 # data = {
