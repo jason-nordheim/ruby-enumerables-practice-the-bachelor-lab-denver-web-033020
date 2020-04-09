@@ -238,8 +238,6 @@ data = {
     ]
   }
 
-pp data[:"season 19"]
-# data["season 19"].each do |k, v|
-#   p "k: #{k}"
-#   p "v: #{v}"
-# end
+
+
+p get_first_name_of_season_winner(data,:"season 19")
