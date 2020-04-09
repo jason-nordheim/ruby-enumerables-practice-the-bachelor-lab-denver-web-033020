@@ -33,6 +33,10 @@ end
 
 def get_average_age_for_season(data, season)
   # code here
+  ppl_in_season = data[season]
+ppl_ages = ppl_in_season.map {|person| person["age"].to_f }
+sum_of_ages = ppl_ages.reduce(0) {|memo, age| memo += age }
+avg_age = (sum_of_ages / ppl_in_season.length).round
 end
 
 # Helper Function - Returns contestants from all seasons
