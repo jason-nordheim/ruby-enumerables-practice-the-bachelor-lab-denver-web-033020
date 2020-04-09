@@ -26,6 +26,9 @@ end
 
 def get_occupation(data, hometown)
   # code here
+  all_people = get_all_contestants(data)
+  selected_people = all_people.select { |x| x["hometown"] == hometown }
+  selected_people[0]["occupation"]
 end
 
 def get_average_age_for_season(data, season)
