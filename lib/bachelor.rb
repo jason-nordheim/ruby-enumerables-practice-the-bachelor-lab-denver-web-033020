@@ -17,7 +17,7 @@ def get_contestant_name(data, occupation)
   saved = nil
   data[season].each do |hash|
     if hash["occupation"] == occupation
-      saved = hash["name"].split(" ")[0]
+      saved = hash["name"]
     end
   end
   saved
