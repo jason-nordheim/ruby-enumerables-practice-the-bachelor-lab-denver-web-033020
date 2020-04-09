@@ -14,7 +14,7 @@ end
 
 def get_contestant_name(data, occupation)
   # code here
-  get_all_contestants(data).find {|x| x["occupation"] == hometown}
+  get_all_contestants(data).find {|x| x["occupation"] == occupation}
 end
 
 def count_contestants_by_hometown(data, hometown)
