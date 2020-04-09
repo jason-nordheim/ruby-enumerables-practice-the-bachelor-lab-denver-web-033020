@@ -3,7 +3,7 @@ require 'pp'
 
 def get_first_name_of_season_winner(data, season)
   # code here
-  data[season].each { |k,v| p v }
+  data[season].each { |hash| p hash }
 end
 
 def get_contestant_name(data, occupation)
