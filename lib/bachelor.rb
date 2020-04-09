@@ -5,9 +5,8 @@ def get_first_name_of_season_winner(data, season)
   # code here
   saved = nil
   data[season].each do |hash|
-    p hash[:status]
     if hash[:status] == "Winner"
-      p hash
+      return hash[:name].split(" ")[0]
     end
   end
 end
