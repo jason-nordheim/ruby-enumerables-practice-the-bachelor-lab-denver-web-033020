@@ -231,7 +231,9 @@ data = {
          "hometown":"Manhattan Beach, California",
          "occupation":"Cadaver Tissue Saleswoman",
          "status":"Eliminated in episode 1"
-      }]
+      }
+    ]
+  }
 
 data["season 19"].each do |k, v|
   p "k: #{k}"
