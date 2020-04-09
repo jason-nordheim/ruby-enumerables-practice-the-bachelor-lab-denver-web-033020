@@ -6,8 +6,8 @@ def get_first_name_of_season_winner(data, season)
   saved = nil
   data[season].each do |hash|
     if hash[:status] == "Winner"
-      p hash 
-    else 
+      p hash
+    else
       p "nope"
     end
   end
